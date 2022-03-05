@@ -59,7 +59,7 @@ darnos un 1. Seguimos con este procedimiento y hallamos los valores 100, lo cual
 de nuevo, da un 1. Inmediatamente después todos los valores dan 0. El autómata
 quedará entonces así en la segunda generación (la primera generación es la
 inicial):
-
+<br />
 <div align="center">
     000...001100...000 [Generación inicial]
 </div>
@@ -67,14 +67,14 @@ inicial):
 <div align="center">
     000...011110...000 [Segunda generación]
 </div>
-
+<br />
 Este proceso se puede ejecutar un número n determinado de veces, lo cual conlleva
 a la aparición de patrones complejos.
 
 # 2. Ejecución del programa
 
 Para proceder a ejecutar el programa, se requerirá primeramente que se descargue la carpeta Automatas-celulares-unidimensionales/ adjunto a su contenido. Además de lo anterior, deberá tener instalado las bibliotecas Numpy, Matplotlib y PyQt5, en caso de no tenerlos instalados consulte los siguientes enlaces: 
-
+<br />
 <div align="center">
     https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)
 </div>
@@ -92,39 +92,39 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   Cuando se ejecute el archivo Autómata_Wolfram.py, usted verá esta ventana.
 </p>
-
+<br />
 <div align="center">
     <img src="https://i.postimg.cc/Cx1ytDQ1/imagen-2022-03-04-231024.png"</img> 
 </div>
-
+<br />
 <p align="center">
   Para seleccionar la regla a ejecutar, use el siguiente recuadro. Igualmente puede modificar el número contenido directamente seleccionandolo y escribiendo el número deseado.
 </p>
-
+<br />
 <div align="center">
     <img src="https://i.postimg.cc/KjRLw0Bf/imagen-2022-03-04-231345.png"</img> 
 </div>
-
+<br />
 <p align="center">
   Para seleccionar el número de casillas iniciales y el número de generaciones a realizar, seleccione los siguientes recuadros. Viene con los valores predeterminados 600 y 800, estos valores se pueden modificar directamente.
 </p>
-
+<br />
 <p align="center">
   <img src="https://i.postimg.cc/jdqShMyn/imagen-2022-03-04-232013.png"</img>
 </p>
-
+<br />
 <p align="center">
   La primera generación consiste en una célula viva dado una posición de inicio, si se desea modificar la posición de inicio, utilize la barra deslizadora. Viene con el valor centro por defecto, deslize la barra con el cursor al valor deseado.
 </p>
-
+<br />
 <p align="center">
   <img src="https://i.postimg.cc/fbD23SGs/imagen-2022-03-04-232247.png"</img>
 </p>
-
+<br />
 <p align="center">
   Existe la opción de que la generación inicial se genere de manera aleatoria, este valor viene desmarcada por defecto.
 </p>
-
+<br />
 <p align="center">
   <img src="https://i.postimg.cc/SsrJy3Wq/imagen-2022-03-04-232747.png"</img>
 </p>
@@ -147,7 +147,7 @@ Automatas-celulares-unidimensionales/
 4. GUI.py: Es la inteefaz de usuario primeramente vista por el usuario
 5. View.py: Despliega en pantalla el resultado dado.
 6. logo.ico: Una imagen que puede ser visualizada en la esquina superior izquierda de la ventana del programa.
-
+<br />
 <p align="center">
   <img src="https://i.postimg.cc/90b8YmZS/imagen-2022-03-04-233527.png"</img>
 </p>
