@@ -35,18 +35,18 @@ ciegas que descubrió Conway en el juego de la vida o las reglas en la hormiga d
 Langton, como veremos más adelante. Estas reglas son las que definen el
 comportamiento en la evolución del autómata. Por ejemplo, consideremos una
 línea de células y las siguientes reglas locales:
-
+<br />
 <div align="center">
-    <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img> \n
+    <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img>
 </div>
-
+<br />
 Por ejemplo, consideremos una línea que contenga dos células en el medio de la
 misma, es decir:
-
+<br />
 <div align="center">
-    000...001100...000 \n
+    000...001100...000 
 </div>
-
+<br />
 La evolución de la siguiente generación pide revisar cada célula en la línea.
 Cuando tenemos 000…000… no hay cambio alguno, pero llega un momento en
 que tenemos 001 (recuérdese, sólo hay dos células en la línea del autómata).
@@ -63,9 +63,9 @@ inicial):
 <div align="center">
     000...001100...000 [Generación inicial]
 </div>
-
+<br />
 <div align="center">
-    000...011110...000 [Segunda generación]\n
+    000...011110...000 [Segunda generación]
 </div>
 
 Este proceso se puede ejecutar un número n determinado de veces, lo cual conlleva
@@ -76,11 +76,13 @@ a la aparición de patrones complejos.
 Para proceder a ejecutar el programa, se requerirá primeramente que se descargue la carpeta Automatas-celulares-unidimensionales/ adjunto a su contenido. Además de lo anterior, deberá tener instalado las bibliotecas Numpy, Matplotlib y PyQt5, en caso de no tenerlos instalados consulte los siguientes enlaces: 
 
 <div align="center">
-    https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)\n
+    https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)
 </div>
+<br />
 <div align="center">
-    https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)\n\n
+    https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)
 </div>
+<br /><br />
 
 Posteriormente, se ejecutará el archivo Autómata_Wolfram.py localizado en Automatas-celulares-unidimensionales/, este archivo se puede ejecutar dentro de una terminal (esto se puede realizar utilizando el comando "python3 Autómata_Wolfram.py", asegúrate de que la terminal se encuentre en la carpeta donde se ubica "Autómata_Wolfram.py" usando el comando cd, de lo contrario te marcará el error de archivo no encontrado) o ejecutando el script con algún IDE (como lo es el caso del programa Anaconda, Spider o Visual Studio Core disponible para Windows, Linux y Mac, puedes consultar el método de instalación en el siguiente enlace: https://docs.anaconda.com/anaconda/install/index.html)
 
