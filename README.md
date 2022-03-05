@@ -158,6 +158,22 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   <img src="https://i.postimg.cc/bdc2FkPF/imagen-2022-03-04-235613.png"</img>
 </p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/Nf3WpMH9/imagen-2022-03-04-235847.png"</img>
+</p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/sDYtHz9T/imagen-2022-03-05-000004.png"</img>
+</p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/8znwtX3y/imagen-2022-03-05-000113.png"</img>
+</p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/ydfNZ9WS/imagen-2022-03-05-000249.png"</img>
+</p>
 
 # 4. Información del contenido
 
