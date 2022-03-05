@@ -37,14 +37,14 @@ comportamiento en la evolución del autómata. Por ejemplo, consideremos una
 línea de células y las siguientes reglas locales:
 
 <div align="center">
-    <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img> 
+    <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img> \n
 </div>
 
 Por ejemplo, consideremos una línea que contenga dos células en el medio de la
 misma, es decir:
 
 <div align="center">
-    000...001100...000
+    000...001100...000 \n
 </div>
 
 La evolución de la siguiente generación pide revisar cada célula en la línea.
@@ -65,7 +65,7 @@ inicial):
 </div>
 
 <div align="center">
-    000...011110...000 [Segunda generación]
+    000...011110...000 [Segunda generación]\n
 </div>
 
 Este proceso se puede ejecutar un número n determinado de veces, lo cual conlleva
@@ -76,15 +76,15 @@ a la aparición de patrones complejos.
 Para proceder a ejecutar el programa, se requerirá primeramente que se descargue la carpeta Automatas-celulares-unidimensionales/ adjunto a su contenido. Además de lo anterior, deberá tener instalado las bibliotecas Numpy, Matplotlib y PyQt5, en caso de no tenerlos instalados consulte los siguientes enlaces: 
 
 <div align="center">
-    https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)
+    https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)\n
 </div>
 <div align="center">
-    https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)
+    https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)\n\n
 </div>
 
 Posteriormente, se ejecutará el archivo Autómata_Wolfram.py localizado en Automatas-celulares-unidimensionales/, este archivo se puede ejecutar dentro de una terminal (esto se puede realizar utilizando el comando "python3 Autómata_Wolfram.py", asegúrate de que la terminal se encuentre en la carpeta donde se ubica "Autómata_Wolfram.py" usando el comando cd, de lo contrario te marcará el error de archivo no encontrado) o ejecutando el script con algún IDE (como lo es el caso del programa Anaconda, Spider o Visual Studio Core disponible para Windows, Linux y Mac, puedes consultar el método de instalación en el siguiente enlace: https://docs.anaconda.com/anaconda/install/index.html)
 
-Con lo anterior realizado, usted verá que se iniciará el programa abriendo una ventana, mostrando en pantalla una interfaz en donde se mostrará una cuadrícula azul con la cual el usuario podrá interactuar.
+Con lo anterior realizado, usted verá que se iniciará el programa abriendo una ventana, mostrando en pantalla una interfaz con la cual el usuario podrá interactuar.
 
 # Menú de inicio
 <p align="center">
