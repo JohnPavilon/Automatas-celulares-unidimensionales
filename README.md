@@ -62,6 +62,9 @@ inicial):
 
 <div align="center">
     000...001100...000 [Generación inicial]
+</div>
+
+<div align="center">
     000...011110...000 [Segunda generación]
 </div>
 
@@ -74,6 +77,8 @@ Para proceder a ejecutar el programa, se requerirá primeramente que se descargu
 
 <div align="center">
     https://sites.google.com/site/clasesdesde0/python-plot (Instalación de Matplotlib y Numpy)
+</div>
+<div align="center">
     https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)
 </div>
 
