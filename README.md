@@ -1,4 +1,4 @@
-# Autómata celular unidimensional
+# Autómatas celulares unidimensionales de Stephen Wolfram
 
 # 1. Introducción
 
@@ -40,6 +40,12 @@ línea de células y las siguientes reglas locales:
     <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img> 
 </div>
 
+Por ejemplo, consideremos una línea que contenga dos células en el medio de la
+misma, es decir:
+
+<div align="center">
+    000...001100...000
+</div>
 
 # 2. Ejecución del programa
 
