@@ -134,7 +134,7 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 </p>
 <br />
 <p align="center">
-  <img src="hhttps://i.postimg.cc/2yXzXDfc/imagen-2022-03-04-234642.png"</img>
+  <img src="https://i.postimg.cc/2yXzXDfc/imagen-2022-03-04-234642.png"</img>
 </p>
 <br /><br />
 <p align="center">
