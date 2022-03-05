@@ -42,7 +42,7 @@ línea de células y las siguientes reglas locales:
 <br />
 Por ejemplo, consideremos una línea que contenga dos células en el medio de la
 misma, es decir:
-<br />
+<br /><br />
 <div align="center">
     000...001100...000 
 </div>
@@ -82,7 +82,7 @@ Para proceder a ejecutar el programa, se requerirá primeramente que se descargu
 <div align="center">
     https://pythones.net/pyqt-instalacion-y-codigo-tutorial/ (Instalación de PyQt5)
 </div>
-<br /><br />
+<br />
 
 Posteriormente, se ejecutará el archivo Autómata_Wolfram.py localizado en Automatas-celulares-unidimensionales/, este archivo se puede ejecutar dentro de una terminal (esto se puede realizar utilizando el comando "python3 Autómata_Wolfram.py", asegúrate de que la terminal se encuentre en la carpeta donde se ubica "Autómata_Wolfram.py" usando el comando cd, de lo contrario te marcará el error de archivo no encontrado) o ejecutando el script con algún IDE (como lo es el caso del programa Anaconda, Spider o Visual Studio Core disponible para Windows, Linux y Mac, puedes consultar el método de instalación en el siguiente enlace: https://docs.anaconda.com/anaconda/install/index.html)
 
@@ -96,7 +96,7 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <div align="center">
     <img src="https://i.postimg.cc/Cx1ytDQ1/imagen-2022-03-04-231024.png"</img> 
 </div>
-<br />
+<br /><br />
 <p align="center">
   Para seleccionar la regla a ejecutar, use el siguiente recuadro. Igualmente puede modificar el número contenido directamente seleccionandolo y escribiendo el número deseado.
 </p>
@@ -104,7 +104,7 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <div align="center">
     <img src="https://i.postimg.cc/KjRLw0Bf/imagen-2022-03-04-231345.png"</img> 
 </div>
-<br />
+<br /><br />
 <p align="center">
   Para seleccionar el número de casillas iniciales y el número de generaciones a realizar, seleccione los siguientes recuadros. Viene con los valores predeterminados 600 y 800, estos valores se pueden modificar directamente.
 </p>
@@ -112,7 +112,7 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   <img src="https://i.postimg.cc/jdqShMyn/imagen-2022-03-04-232013.png"</img>
 </p>
-<br />
+<br /><br />
 <p align="center">
   La primera generación consiste en una célula viva dado una posición de inicio, si se desea modificar la posición de inicio, utilize la barra deslizadora. Viene con el valor centro por defecto, deslize la barra con el cursor al valor deseado.
 </p>
@@ -120,7 +120,7 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   <img src="https://i.postimg.cc/fbD23SGs/imagen-2022-03-04-232247.png"</img>
 </p>
-<br />
+<br /><br />
 <p align="center">
   Existe la opción de que la generación inicial se genere de manera aleatoria, este valor viene desmarcada por defecto.
 </p>
