@@ -150,6 +150,10 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   <img src="https://i.postimg.cc/fRcZnX7Q/imagen-2022-03-04-233010.png"</img>
 </p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/gkmz4gbb/imagen-2022-03-04-235252.png"</img>
+</p>
 
 # 4. Información del contenido
 
