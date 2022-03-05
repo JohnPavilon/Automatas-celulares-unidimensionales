@@ -174,6 +174,10 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <p align="center">
   <img src="https://i.postimg.cc/ydfNZ9WS/imagen-2022-03-05-000249.png"</img>
 </p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/h4bkpg0p/imagen-2022-03-05-000458.png"</img>
+</p>
 
 # 4. Información del contenido
 
