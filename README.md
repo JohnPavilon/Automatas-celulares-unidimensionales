@@ -35,7 +35,7 @@ ciegas que descubrió Conway en el juego de la vida o las reglas en la hormiga d
 Langton, como veremos más adelante. Estas reglas son las que definen el
 comportamiento en la evolución del autómata. Por ejemplo, consideremos una
 línea de células y las siguientes reglas locales:
-<br />
+<br /><br />
 <div align="center">
     <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img>
 </div>
@@ -127,6 +127,22 @@ Con lo anterior realizado, usted verá que se iniciará el programa abriendo una
 <br />
 <p align="center">
   <img src="https://i.postimg.cc/SsrJy3Wq/imagen-2022-03-04-232747.png"</img>
+</p>
+<br /><br />
+<p align="center">
+  Una vez seleccionado todos los parámetros requeridos. Presione botón "Ejecutar" para obtener el resultado
+</p>
+<br />
+<p align="center">
+  <img src="hhttps://i.postimg.cc/2yXzXDfc/imagen-2022-03-04-234642.png"</img>
+</p>
+<br /><br />
+<p align="center">
+ Cuando presione el botón ejecutar, se le desplejará una ventana mostrando la imagen resultado. Adicionalmente, usted verá una barra de tareas con la cual podrá interactuar con la imagen además de almacenarla
+</p>
+<br />
+<p align="center">
+  <img src="https://i.postimg.cc/43hBYbdm/imagen-2022-03-04-234938.png"</img>
 </p>
 
 # 3. Patrones interesantes 
