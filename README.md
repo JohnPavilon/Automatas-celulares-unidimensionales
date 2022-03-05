@@ -2,42 +2,44 @@
 
 # 1. Introducción
 
-Hay un juego de computadora fascinante, llamado Juego de la Vida, el cual fue
-diseñado en 1970 por el matemático británico John Horton Conway 8, de la
-Universidad de Cambridge, Inglaterra (en ese tiempo). Se hizo muy popular desde
-que Martin Gardner, en su columna de octubre de ese año en la revista Scientific
-American hablara de las ideas de dicho matemático. Pero más allá de ser un
-interesante pasatiempo, podríamos decir que el juego de la vida contiene las ideas
-que originalmente von Neumann intentó plasmar en su autómata celular. Lo
-importante aquí es que Conway halló una serie de reglas simples, para su
-autómata celular en dos dimensiones, que permitió superar las dificultades que
-von Neumann tuvo en su momento para crear máquinas que se auto-replicaran.
+Los autómatas celulares de von Neumann y de Conway sin duda hicieron
+despertar la imaginación de otros investigadores. Una idea sensata es quitar una
+dimensión a los autómatas bidimensionales, como los del juego de la vida, y ver
+qué pasa si ponemos a trabajar a los autómatas en una sola dimensión. Esto, en
+principio, podrías sugerir una simplicidad mayor que al trabajar con autómatas
+como en el juego de la vida, que ocurren en dos dimensiones. Sin embargo, esta
+simplificación es aparente, pues en una dimensión, los autómatas hallan
+desarrollos emergentes complejos.
 
-El juego de la vida ocurre en un tablero cuadriculado, en donde cada casilla o
-escaque puede haber una célula o estar vacío. La idea es acomodar una serie de 
-células en la malla cuadriculada y observando las vecindades de cada célula, cada
-cuadro pues, utilizando las reglas de Conway (ver más abajo), ir calculando las
-nuevas configuraciones de células que aparecerán en la siguiente generación.
+Consideremos una línea recta de células, de casillas, las cuales pueden estar
+ocupadas o vacías. Pueden pues tener células o no tenerlas. Aquí, las reglas del
+autómata, también ciegas, se basan simplemente en la vecindad de cada célula
+con la que se está trabajando en cada generación. De acuerdo a las reglas que se
+definen, podremos ver lo que pasa en la línea de células, generación tras
+generación. Además, para darnos una mejor idea, podemos colocar la primera
+generación (la configuración inicial), y ver el comportamiento, pintando la segunda
+generación debajo de la primera. Podemos hacer esto para cada ciclo t en el
+tiempo y en un momento determinado tendremos decenas, centenas o miles de
+generaciones desplegadas. Con ello podremos hacer un análisis de lo que está
+pasando.
 
-Tomemos un plano cuadriculado de dimensiones infinitas. Cada sitio, cuadro o
-casilla, tiene 8 casillas vecinas: cuatro ortogonalmente adyacentes, en diagonal, 2 
-en vertical y 2 en horizontal. En cada sitio es posible poner un valor binario (hay
-célula o no hay en esa casilla). Las reglas son:
+Formalmente podríamos decir que los autómatas, las células, tienen valor 1 si
+están en alguna casilla de la línea de cuadros disponibles o bien contienen un
+valor 0 (cero), es decir, no hay nada en una casilla. Las reglas de evolución se
+presentan solamente analizando la vecindad de cada casilla de interés, una por
+una.
 
-1. Supervivencia: cada célula o ficha, que tenga dos o tres fichas vecinas
-sobrevive y pasa a la generación siguiente.
+Uno de los primeros científicos en estudiar cuidadosamente este tipo de
+autómatas fue Stephen Wolfram. Wolfram habla de reglas locales de evolución, que no son otra cosa que las reglas
+ciegas que descubrió Conway en el juego de la vida o las reglas en la hormiga de
+Langton, como veremos más adelante. Estas reglas son las que definen el
+comportamiento en la evolución del autómata. Por ejemplo, consideremos una
+línea de células y las siguientes reglas locales:
 
-2. Fallecimiento: cada ficha que tenga cuatro o más vecinas muere y es
-retirada del tablero, por sobrepoblación. Las fichas con una vecina o solas
-fallecen por aislamiento
+<div align="center">
+    <img src="https://i.postimg.cc/Pqt3Lk1R/imagen-2022-03-04-225453.png"</img> 
+</div>
 
-3. Nacimientos: cada casilla vacía, adyacente a exactamente tres cifras
-vecinas -tres, ni más ni menos- es casilla generatriz. Es decir, en la
-siguiente generación habrá de colocarse una ficha en esa casilla
-
-Es importante hacer notar que todos los natalicios y fallecimientos ocurren
-simultáneamente, y constituyen en su conjunto una generación en particular, al
-paso del tiempo t, también llamado tic del reloj.
 
 # 2. Ejecución del programa
 
